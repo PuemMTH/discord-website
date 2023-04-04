@@ -1,4 +1,5 @@
 services:
   script:
     install: npm install
+    del: pm2 stop all
     start: npm run dev
